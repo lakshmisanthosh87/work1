@@ -257,6 +257,7 @@
     font-size: 18px;
     color: gray;
     font-family: sans-serif;
+    line-height: 1.5;
 }
 .part2{
     margin-top: 50px;
@@ -294,14 +295,14 @@
 }
 .content4 p{
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
     color: gray;
 }
 
 .content4 .btn2{
     margin-top: 20px;
-    width: 120px;
-    height: 40px;
+    width: 140px;
+    height: 45px;
     border-radius: 7px;
     background-color: rgb(6, 46, 6);
     color: wheat;
@@ -312,7 +313,7 @@
     width: 75%;
     height: 10vh;
     margin: auto;
-    background-color: palevioletred;
+    /* background-color: palevioletred; */
    display: flex;
    justify-content: space-between;
 }
@@ -539,5 +540,71 @@
         font-size: 18px;
         line-height: 1.5;
     }
+    .nav111 h2{
+
+        font-size: 17px;
+
+    }
+    .nav111 img{
+        width: 30px;
+        height: 30px;
+    }
+    .p1{
+        font-size: 55px;
+    }
+    .btn1{
+        width:230px ;
+        height:70px ;
+    }
+    .content1{
+        border: none;
+        width: 78%;
+    }
+    .content1 h1{
+        font-size: 40px;
+    }
+    .para1{
+        font-size: 35px;
+    }
+    .para2{
+        font-size: 20px;
+    }
+    .part11 p{
+        font-size: 18px;
+    }
     
 } 
+
+@media screen and (max-width:376px)
+{
+    
+    .nav111 h2{
+        font-size: 15px;
+    }
+    .p2{
+        font-size: 19px;
+    }
+    .p3{
+        font-size: 19px;
+    }
+    .para1{
+        font-size: 33px;
+    }
+    .para2{
+        font-size: 22;
+    }
+    .part2{
+        width: 340px;
+    }
+    .part11{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width:321) {
+    .part2{
+        width: 100px;
+        height:300px;
+    }
+    
+}
